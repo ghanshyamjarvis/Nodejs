@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input type="submit" onclick="x()" value="Click Me" >
+
+<input type="submit" onclick="pp()" value="ME" >
+
+<input type="submit" value="print" onclick="window.print()">
+<script>
+  function x()
+  {
+    var me = confirm("want to continue");
+    
+    if ( me == true )
+        {
+        document.write(" YES ")
+          return true;
+        }
+    else
+        {
+        document.write(" NO ")
+          return false;
+        }
+  }
+
+
+  function pp()
+  {
+  var b =prompt("Here ");
+
+
+  if (b == true)
+  {
+    document.write("enter name")
+    return true
+  }else {
+    alert("Blank Not Allow")
+    return false
+  }
+  }
+</script>
+</body>
+</html>
