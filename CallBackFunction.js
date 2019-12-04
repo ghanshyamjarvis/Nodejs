@@ -84,6 +84,5 @@ var sum = function (num1, num2, callback )
 {
 return callback (num1 ,num2);
 }
-
 console.log(sum(10,60, add))
 console.log(sum(10,60, multi))
