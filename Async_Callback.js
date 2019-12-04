@@ -9,10 +9,10 @@ function notifyAll(fnSms, fnEmail)
 {
   setTimeout(function()
     {
-    console.log('starting notification process');
-    fnSms();
-    fnEmail();
-    }, 2000);
+      console.log('starting notification process');
+      fnSms();
+      fnEmail();
+    },2000);
 }
 
 notifyAll(function()
