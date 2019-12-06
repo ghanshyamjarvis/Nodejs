@@ -273,6 +273,7 @@ console.log(car.model +" "+  car.year)
 */
 
 //Example − Cloning an Object
+/*
 "use strict"
 var det = { name:"Tom", ID:"E1001" };
 var copy = Object.assign({}, det);
@@ -280,6 +281,38 @@ console.log(copy);
 for (let val in copy) {
   console.log(copy[val])
 }
+*/
 
+//Accessing Array Elements
+/*
 
+var alphas;
+alphas = ["1","2","3","4"]
+console.log(alphas[0]);
+console.log(alphas[1]);*/
 
+//Array Object
+/*
+var arr_names = new Array(4)
+for(var i = 0;i<arr_names.length;i++)
+{
+  arr_names[i] = i * 2
+  console.log(arr_names[i])
+}
+*/
+
+//Example: Array Constructor Accepts Comma-separated Values
+/*
+var names = new Array("Mary","Tom","Jack","Jill")
+for(var i = 0;i<names.length;i++)
+{
+  console.log(names[i])
+}
+*/
+
+//Array De-structuring
+/*
+var arr = [12,13]
+var[x,y] = arr
+console.log(x)
+console.log(y)*/
